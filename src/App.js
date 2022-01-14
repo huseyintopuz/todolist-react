@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <div className="column">
-        <h1>Hello World!</h1>
+        <h1>TODO LIST!</h1>
         <FormControl size="small">
           <InputLabel className="inputName" color="success">Write a todo</InputLabel>
           <Input value={input} onChange={e => setInput(e.target.value)} ></Input>
